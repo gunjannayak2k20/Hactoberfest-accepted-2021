@@ -10,8 +10,11 @@ AWS authentification
 The AWS provider is used to interact with the many resources supported by AWS. The provider needs to be configured with the proper credentials before it can be used.
 
 provider "aws" {
+
   access_key = "secret"
+  
   secret_key = "secret"
+  
   region     = "us-east-1"
 }
 
