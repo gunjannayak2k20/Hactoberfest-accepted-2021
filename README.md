@@ -1,11 +1,11 @@
 # Hactoberfest-accepted-2021
 
 
-Terraform introduction
+1.Terraform introduction
 
 Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.
 
-AWS authentification
+2. AWS authentification
 
 The AWS provider is used to interact with the many resources supported by AWS. The provider needs to be configured with the proper credentials before it can be used.
 
@@ -18,7 +18,7 @@ provider "aws" {
   region     = "us-east-1"
 }
 
-Getting Started
+3.Getting Started
 
 Before terraform apply you must download provider plugin:
 
